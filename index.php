@@ -22,7 +22,7 @@
     </ul>
 </nav>
 <main>
-    <img src="images/edison.jpg">
+    <img alt="image of Edison" src="images/edison.jpg">
     <br />
     <br />
     <p>Learning to code</p>
