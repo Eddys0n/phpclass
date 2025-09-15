@@ -6,20 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Edison's Website</title>
-    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="/css/base.css">
 </head>
 <body>
 <header>
-
-    <h1>PHP Class - Edison Medina</h1>
+    <?php include 'includes/header.php'; ?>
 </header>
 <nav>
-    <ul>
-        <li><a href="/">Homepage</a></li>
-        <li><a href="/">Loops</a></li>
-        <li><a href="/">CountDown</a></li>
-        <li><a href="/">Other</a></li>
-    </ul>
+    <?php include 'includes/nav.php'; ?>
 </nav>
 <main>
     <img alt="image of Edison" src="images/edison.jpg">
@@ -32,7 +26,7 @@
     <br />
 </main>
 <footer>
-    <p>&copy; 2020x EdisonMedina.com</p>
+    <?php include 'includes/footer.php'; ?>
 </footer>
 
 </body>
