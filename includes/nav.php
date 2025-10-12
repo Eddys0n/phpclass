@@ -1,6 +1,7 @@
 
 <?php
 $isMagic8Ball = $_SERVER['REQUEST_URI'] == '/magic-8ball' ? 'selected' : '';
+$isMovieList = $_SERVER['REQUEST_URI'] == '/movielist/' ? 'selected' : '';
 ?>
 <ul>
     <li>
@@ -17,5 +18,8 @@ $isMagic8Ball = $_SERVER['REQUEST_URI'] == '/magic-8ball' ? 'selected' : '';
     </li>
     <li class="<?=$isMagic8Ball?>">
         <a href="/magic-8ball">Magic 8 Ball</a>
+    </li>
+    <li class="<?=$isMovieList?>">
+        <a href="/movielist">Movie List</a>
     </li>
 </ul>
