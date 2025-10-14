@@ -8,6 +8,7 @@
     <title>Edison's Website</title>
     <link rel="stylesheet" type="text/css" href="/css/base.css">
     <style>
+
         table{
             border: 1px solid black;
             width: 80%;
@@ -18,8 +19,18 @@
             border: 1px solid black;
             padding: 2rem;
         }
+        table a {
+            color: darkblue;
+        }
+        table a:hover {
+            text-decoration: underline;
+        }
 
+        .hidden {
+            display: none;
+        }
     </style>
+
 </head>
 <body>
 <header>
@@ -30,7 +41,7 @@
 </nav>
 <main>
     <h2>My Movie List</h2>
-    <table>
+    <table class="movies">
         <tr>
             <th>ID</th>
             <th>Title</th>
@@ -50,7 +61,8 @@
 
         echo "<tr>";
         echo "    <td>$movieID</td>";
-        echo "    <td>$movieTitle</td>";
+        echo "    <td>";
+        echo "          <a href =\"movie.php?id=$movieID\">$movieTitle</a>";
         echo "    <td>$movieRating</td>";
         echo "</tr>";
     }
