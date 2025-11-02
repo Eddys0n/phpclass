@@ -3,6 +3,8 @@
 $isMagic8Ball = $_SERVER['REQUEST_URI'] == '/magic-8ball' ? 'selected' : '';
 $isMovieList = $_SERVER['REQUEST_URI'] == '/movielist/' ? 'selected' : '';
 $isLogin = $_SERVER['REQUEST_URI'] == '/login/' ? 'selected' : '';
+$customer = $_SERVER['REQUEST_URI'] == '/customerlist/' ? 'selected' : '';
+$dice = $_SERVER['REQUEST_URI'] == '/dice/' ? 'selected' : '';
 ?>
 <ul>
     <li>
@@ -26,4 +28,11 @@ $isLogin = $_SERVER['REQUEST_URI'] == '/login/' ? 'selected' : '';
     <li class="<?=$isLogin?>">
         <a href="/login">Login</a>
     </li>
+    <li class="<?=$dice?>">
+        <a href="/dice">Dice</a>
+    </li>
+    <li class="<?=$customer?>">
+        <a href="/customerlist">Customer</a>
+    </li>
+
 </ul>
