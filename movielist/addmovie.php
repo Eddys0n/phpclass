@@ -2,6 +2,7 @@
     $errorMessage = "";
 
     if (!empty($_POST["txtTitle"]) && !empty($_POST["txtRating"])){
+
         include  "../includes/db.php";
         $con = getDBConnection();
 

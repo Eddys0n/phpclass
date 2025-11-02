@@ -63,6 +63,7 @@
 
             echo "<tr>";
             echo "    <td>$customerID</td>";
+            echo "     <td><a href =\"customer.php?id=$customerID\">$firstName</a></td>" ;
             echo "    <td>$firstName</td>";
             echo "    <td>$lastName</td>";
             echo "    <td>$address</td>";
