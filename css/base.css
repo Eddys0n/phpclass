@@ -1,11 +1,19 @@
 /* website style */
-
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f3f6f9;
+    margin: 0;
+    padding: 0;
+}
 header{
+    background-color: #3b82f6;
+    color: white;
+    padding: 15px 0;
     width: 100%;
     float: left;
     font-family: Georgia, serif;
     text-align: center;
-    background-color: cadetblue;
+    font-weight: bold;
 }
 
 nav{
@@ -43,12 +51,17 @@ ul{
     padding: 0;
     width: 200px;
     background-color: #f1f1f1f1;
+    border-right: 1px solid #ddd;
+    position: fixed;
+    height: 100%;
 }
 ul a{
     display: block;
-    color: black;
+    color: #333;
     padding: 8px 0 8px 16px;
     text-decoration: none;
+    transition: 0.3s;
+    font-weight: 500;
 }
 /* Navigation Hover style */
 li a:hover{
