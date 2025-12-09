@@ -49,14 +49,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                        Bootstrap Elements
+                        Athlete Registration
                     </h1>
                     <ol class="breadcrumb">
                         <li>
                             <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
                         </li>
                         <li class="active">
-                            <i class="fa fa-desktop"></i> Bootstrap Elements
+                            <i class="fa fa-desktop"></i> Athlete Registration Overview
                         </li>
                     </ol>
                 </div>
@@ -65,77 +65,75 @@
 
             <!-- Main jumbotron for a primary marketing message or call to action -->
             <div class="jumbotron">
-                <h1>Hello, world!</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
+                <h1>City Marathon 2025</h1>
+                <p>
+                    Welcome to the official athlete registration page. Here you can find
+                    everything you need to get ready for race day: registration details,
+                    race day schedule, course information, and important updates.
+                </p>
+                <p>
+                    <a href="#" class="btn btn-primary btn-lg" role="button">
+                        Register Now &raquo;
+                    </a>
                 </p>
             </div>
 
+            <!-- QUICK ACTION BUTTONS -->
             <div class="page-header">
-                <h1>Buttons</h1>
+                <h1>Quick Actions</h1>
             </div>
             <p>
-                <button type="button" class="btn btn-lg btn-default">Default</button>
-                <button type="button" class="btn btn-lg btn-primary">Primary</button>
-                <button type="button" class="btn btn-lg btn-success">Success</button>
-                <button type="button" class="btn btn-lg btn-info">Info</button>
-                <button type="button" class="btn btn-lg btn-warning">Warning</button>
-                <button type="button" class="btn btn-lg btn-danger">Danger</button>
-                <button type="button" class="btn btn-lg btn-link">Link</button>
+                <button type="button" class="btn btn-lg btn-primary">Register for the Race</button>
+                <button type="button" class="btn btn-lg btn-success">Download Race Guide (PDF)</button>
+                <button type="button" class="btn btn-lg btn-info">View Course Map</button>
+                <button type="button" class="btn btn-lg btn-warning">Update Registration</button>
+                <button type="button" class="btn btn-lg btn-danger">Cancel Registration</button>
+                <button type="button" class="btn btn-lg btn-link">Contact Support</button>
             </p>
             <p>
-                <button type="button" class="btn btn-default">Default</button>
-                <button type="button" class="btn btn-primary">Primary</button>
-                <button type="button" class="btn btn-success">Success</button>
-                <button type="button" class="btn btn-info">Info</button>
-                <button type="button" class="btn btn-warning">Warning</button>
-                <button type="button" class="btn btn-danger">Danger</button>
-                <button type="button" class="btn btn-link">Link</button>
-            </p>
-            <p>
-                <button type="button" class="btn btn-sm btn-default">Default</button>
-                <button type="button" class="btn btn-sm btn-primary">Primary</button>
-                <button type="button" class="btn btn-sm btn-success">Success</button>
-                <button type="button" class="btn btn-sm btn-info">Info</button>
-                <button type="button" class="btn btn-sm btn-warning">Warning</button>
-                <button type="button" class="btn btn-sm btn-danger">Danger</button>
-                <button type="button" class="btn btn-sm btn-link">Link</button>
-            </p>
-            <p>
-                <button type="button" class="btn btn-xs btn-default">Default</button>
-                <button type="button" class="btn btn-xs btn-primary">Primary</button>
-                <button type="button" class="btn btn-xs btn-success">Success</button>
-                <button type="button" class="btn btn-xs btn-info">Info</button>
-                <button type="button" class="btn btn-xs btn-warning">Warning</button>
-                <button type="button" class="btn btn-xs btn-danger">Danger</button>
-                <button type="button" class="btn btn-xs btn-link">Link</button>
+                <button type="button" class="btn btn-default">FAQs</button>
+                <button type="button" class="btn btn-info">Parking Info</button>
+                <button type="button" class="btn btn-danger">Emergency Info</button>
             </p>
 
+            <!-- COURSE MAP THUMBNAIL -->
             <div class="page-header">
-                <h1>Thumbnails</h1>
+                <h1>Course Map Preview</h1>
             </div>
-            <img class="img-thumbnail" src="http://placehold.it/400x400" alt="">
+            <img class="img-thumbnail" src="http://placehold.it/400x400" alt="Marathon Course Map">
+            <p class="text-muted">
+                Preview of the marathon course. The official, high-resolution map will be
+                available in the race guide and at the packet pickup area.
+            </p>
 
+            <!-- DROPDOWN MENUS -->
             <div class="page-header">
-                <h1>Dropdown menus</h1>
+                <h1>Race Resources</h1>
             </div>
             <div class="dropdown theme-dropdown clearfix">
-                <a id="dropdownMenu1" href="#" role="button" class="sr-only dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <a id="dropdownMenu1" href="#" role="button" class="sr-only dropdown-toggle" data-toggle="dropdown">
+                    Race Resources <b class="caret"></b>
+                </a>
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                    <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a>
+                    <li class="active" role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">Race Rules & Regulations</a>
                     </li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a>
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">Training Plans</a>
                     </li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a>
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">Parking & Transportation</a>
                     </li>
                     <li role="presentation" class="divider"></li>
-                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a>
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">Race Results (after event)</a>
                     </li>
                 </ul>
             </div>
 
+            <!-- NAVBAR -->
             <div class="page-header">
-                <h1>Navbars</h1>
+                <h1>Navigation</h1>
             </div>
 
             <div class="navbar navbar-default">
@@ -147,31 +145,26 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Project name</a>
+                        <a class="navbar-brand" href="#">City Marathon</a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home</a>
-                            </li>
-                            <li><a href="#about">About</a>
-                            </li>
-                            <li><a href="#contact">Contact</a>
-                            </li>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="marathon-registration.html">Register</a></li>
+                            <li><a href="#race-info">Race Info</a></li>
+                            <li><a href="#contact">Contact</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    More <b class="caret"></b>
+                                </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a>
-                                    </li>
-                                    <li><a href="#">Another action</a>
-                                    </li>
-                                    <li><a href="#">Something else here</a>
-                                    </li>
+                                    <li><a href="#">Training Tips</a></li>
+                                    <li><a href="#">Volunteers</a></li>
+                                    <li><a href="#">Sponsors</a></li>
                                     <li class="divider"></li>
-                                    <li class="dropdown-header">Nav header</li>
-                                    <li><a href="#">Separated link</a>
-                                    </li>
-                                    <li><a href="#">One more separated link</a>
-                                    </li>
+                                    <li class="dropdown-header">Useful Links</li>
+                                    <li><a href="#">Race Photos</a></li>
+                                    <li><a href="#">Past Results</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -180,158 +173,144 @@
                 </div>
             </div>
 
-            <div class="navbar navbar-inverse">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Project name</a>
-                    </div>
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home</a>
-                            </li>
-                            <li><a href="#about">About</a>
-                            </li>
-                            <li><a href="#contact">Contact</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a>
-                                    </li>
-                                    <li><a href="#">Another action</a>
-                                    </li>
-                                    <li><a href="#">Something else here</a>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li class="dropdown-header">Nav header</li>
-                                    <li><a href="#">Separated link</a>
-                                    </li>
-                                    <li><a href="#">One more separated link</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--/.nav-collapse -->
-                </div>
-            </div>
-
+            <!-- ALERTS -->
             <div class="page-header">
-                <h1>Alerts</h1>
+                <h1>Important Alerts</h1>
             </div>
             <div class="alert alert-success">
-                <strong>Well done!</strong> You successfully read this important alert message.
+                <strong>Registration Open!</strong> You can now register for all race distances.
             </div>
             <div class="alert alert-info">
-                <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+                <strong>Heads up!</strong> Online registration will close one week before race day.
             </div>
             <div class="alert alert-warning">
-                <strong>Warning!</strong> Best check yo self, you're not looking too good.
+                <strong>Limited Spots!</strong> Half Marathon is almost full. Register soon to secure your spot.
             </div>
             <div class="alert alert-danger">
-                <strong>Oh snap!</strong> Change a few things up and try submitting again.
+                <strong>Weather Notice!</strong> In case of severe weather, race start times may be adjusted.
             </div>
 
+            <!-- PROGRESS BARS -->
             <div class="page-header">
-                <h1>Progress bars</h1>
+                <h1>Registration Capacity</h1>
             </div>
+            <p>5K Fun Run</p>
             <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span>
-                </div>
-            </div>
-            <div class="progress">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span>
-                </div>
-            </div>
-            <div class="progress">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span>
+                <div class="progress-bar" role="progressbar"
+                     aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                     style="width: 60%;">
+                    <span class="sr-only">60% Full</span>
                 </div>
             </div>
+            <p>10K Race</p>
             <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span>
+                <div class="progress-bar progress-bar-success" role="progressbar"
+                     aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                     style="width: 40%;">
+                    <span class="sr-only">40% Full</span>
                 </div>
             </div>
+            <p>Half Marathon</p>
             <div class="progress">
-                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% Complete (danger)</span>
+                <div class="progress-bar progress-bar-warning" role="progressbar"
+                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                     style="width: 80%;">
+                    <span class="sr-only">80% Full</span>
                 </div>
             </div>
+            <p>Full Marathon</p>
             <div class="progress">
-                <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span>
-                </div>
-                <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span>
-                </div>
-                <div class="progress-bar progress-bar-danger" style="width: 10%"><span class='sr-only'>10% Complete (danger)</span>
+                <div class="progress-bar progress-bar-danger" role="progressbar"
+                     aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+                     style="width: 50%;">
+                    <span class="sr-only">50% Full</span>
                 </div>
             </div>
 
-            <div class="page-header">
-                <h1>List groups</h1>
+            <!-- LIST GROUPS -->
+            <div class="page-header" id="race-info">
+                <h1>Race Day Information</h1>
             </div>
             <div class="row">
                 <div class="col-sm-4">
+                    <h3>Race Day Schedule</h3>
                     <ul class="list-group">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Morbi leo risus</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">06:00 AM - Packet pickup opens</li>
+                        <li class="list-group-item">07:30 AM - Warm-up session</li>
+                        <li class="list-group-item">08:00 AM - Marathon & Half start</li>
+                        <li class="list-group-item">08:30 AM - 10K start</li>
+                        <li class="list-group-item">09:00 AM - 5K start</li>
                     </ul>
                 </div>
                 <!-- /.col-sm-4 -->
                 <div class="col-sm-4">
+                    <h3>What to Bring</h3>
                     <div class="list-group">
-                        <a href="#" class="list-group-item active">Cras justo odio</a>
-                        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group-item">Morbi leo risus</a>
-                        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group-item">Vestibulum at eros</a>
+                        <a href="#" class="list-group-item active">Photo ID</a>
+                        <a href="#" class="list-group-item">Confirmation email</a>
+                        <a href="#" class="list-group-item">Running shoes & gear</a>
+                        <a href="#" class="list-group-item">Weather-appropriate clothing</a>
+                        <a href="#" class="list-group-item">Personal hydration (optional)</a>
                     </div>
                 </div>
                 <!-- /.col-sm-4 -->
-                <div class="col-sm-4">
+                <div class="col-sm-4" id="contact">
+                    <h3>Contact & Support</h3>
                     <div class="list-group">
                         <a href="#" class="list-group-item active">
-                            <h4 class="list-group-item-heading">List group item heading</h4>
-                            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            <h4 class="list-group-item-heading">Race Office</h4>
+                            <p class="list-group-item-text">
+                                Email: info@citymarathon.com<br>
+                                Phone: (555) 123-4567
+                            </p>
                         </a>
                         <a href="#" class="list-group-item">
-                            <h4 class="list-group-item-heading">List group item heading</h4>
-                            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            <h4 class="list-group-item-heading">Emergency On Race Day</h4>
+                            <p class="list-group-item-text">
+                                Look for medical tents and volunteers along the course.
+                            </p>
                         </a>
                         <a href="#" class="list-group-item">
-                            <h4 class="list-group-item-heading">List group item heading</h4>
-                            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            <h4 class="list-group-item-heading">Volunteer Team</h4>
+                            <p class="list-group-item-text">
+                                Interested in helping? Join our volunteer crew and support the runners.
+                            </p>
                         </a>
                     </div>
                 </div>
                 <!-- /.col-sm-4 -->
             </div>
 
+            <!-- PANELS -->
             <div class="page-header">
-                <h1>Panels</h1>
+                <h1>Registration Packages</h1>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
+                            <h3 class="panel-title">5K Fun Run</h3>
                         </div>
                         <div class="panel-body">
-                            Panel content
+                            <p>Perfect for beginners and families.</p>
+                            <ul>
+                                <li>Entry fee: $25</li>
+                                <li>Finisher medal</li>
+                                <li>Event T-shirt</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
+                            <h3 class="panel-title">10K Race</h3>
                         </div>
                         <div class="panel-body">
-                            Panel content
+                            <p>Great for experienced runners.</p>
+                            <ul>
+                                <li>Entry fee: $40</li>
+                                <li>Chip timing</li>
+                                <li>Finisher medal & T-shirt</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -339,18 +318,28 @@
                 <div class="col-sm-4">
                     <div class="panel panel-success">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
+                            <h3 class="panel-title">Half Marathon</h3>
                         </div>
                         <div class="panel-body">
-                            Panel content
+                            <p>Challenge yourself with 21K.</p>
+                            <ul>
+                                <li>Entry fee: $70</li>
+                                <li>Chip timing</li>
+                                <li>Finisher medal & premium T-shirt</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="panel panel-info">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
+                            <h3 class="panel-title">Full Marathon</h3>
                         </div>
                         <div class="panel-body">
-                            Panel content
+                            <p>The ultimate 42K challenge.</p>
+                            <ul>
+                                <li>Entry fee: $100</li>
+                                <li>Chip timing & results online</li>
+                                <li>Finisher medal & premium T-shirt</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -358,62 +347,42 @@
                 <div class="col-sm-4">
                     <div class="panel panel-warning">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
+                            <h3 class="panel-title">Late Registration</h3>
                         </div>
                         <div class="panel-body">
-                            Panel content
+                            <p>Available if spots remain.</p>
+                            <ul>
+                                <li>Additional $10 late fee</li>
+                                <li>Limited T-shirt sizes</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="panel panel-danger">
                         <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
+                            <h3 class="panel-title">Cancellation Policy</h3>
                         </div>
                         <div class="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                </div>
-                <!-- /.col-sm-4 -->
-                <div class="col-sm-4">
-                    <div class="panel panel-green">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
-                        </div>
-                        <div class="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                </div>
-                <!-- /.col-sm-4 -->
-                <div class="col-sm-4">
-                    <div class="panel panel-yellow">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
-                        </div>
-                        <div class="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                </div>
-                <!-- /.col-sm-4 -->
-                <div class="col-sm-4">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
-                        </div>
-                        <div class="panel-body">
-                            Panel content
+                            <p>
+                                No refunds after the final registration deadline.
+                                You may transfer your bib to another runner before that date.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <!-- /.col-sm-4 -->
             </div>
 
+            <!-- WELL -->
             <div class="page-header">
-                <h1>Wells</h1>
+                <h1>Need Help?</h1>
             </div>
             <div class="well">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+                <p>
+                    If you have any questions about the registration process, race rules,
+                    or special accommodations, please contact our support team at
+                    <strong>support@citymarathon.com</strong>. We are happy to help you
+                    have a safe and enjoyable race experience.
+                </p>
             </div>
 
         </div>
@@ -424,8 +393,6 @@
 
 </div>
 <!-- /#wrapper -->
-
-<!-- jQuery -->
 <script src="js/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->

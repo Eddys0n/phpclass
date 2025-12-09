@@ -49,14 +49,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                        Forms
+                        Marathon Registration
                     </h1>
                     <ol class="breadcrumb">
                         <li>
                             <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
                         </li>
                         <li class="active">
-                            <i class="fa fa-edit"></i> Forms
+                            <i class="fa fa-edit"></i> Registration Form
                         </li>
                     </ol>
                 </div>
@@ -64,213 +64,133 @@
             <!-- /.row -->
 
             <div class="row">
+                <!-- LEFT COLUMN – REGISTRATION FORM -->
                 <div class="col-lg-6">
 
                     <form role="form">
 
                         <div class="form-group">
-                            <label>Text Input</label>
-                            <input class="form-control">
-                            <p class="help-block">Example block-level help text here.</p>
+                            <label for="fullName">Full Name</label>
+                            <input class="form-control" id="fullName" name="fullName" placeholder="Enter your full name">
                         </div>
 
                         <div class="form-group">
-                            <label>Text Input with Placeholder</label>
-                            <input class="form-control" placeholder="Enter text">
+                            <label for="email">Email Address</label>
+                            <input class="form-control" type="email" id="email" name="email" placeholder="Enter your email">
                         </div>
 
                         <div class="form-group">
-                            <label>Static Control</label>
-                            <p class="form-control-static">email@example.com</p>
+                            <label for="phone">Phone Number</label>
+                            <input class="form-control" type="tel" id="phone" name="phone" placeholder="Enter your phone number">
                         </div>
 
                         <div class="form-group">
-                            <label>File input</label>
-                            <input type="file">
+                            <label for="dob">Date of Birth</label>
+                            <input class="form-control" type="date" id="dob" name="dob">
                         </div>
 
                         <div class="form-group">
-                            <label>Text area</label>
-                            <textarea class="form-control" rows="3"></textarea>
-                        </div>
-
-                        <div class="form-group">
-                            <label>Checkboxes</label>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" value="">Checkbox 1
-                                </label>
-                            </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" value="">Checkbox 2
-                                </label>
-                            </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" value="">Checkbox 3
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label>Inline Checkboxes</label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox">1
-                            </label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox">2
-                            </label>
-                            <label class="checkbox-inline">
-                                <input type="checkbox">3
-                            </label>
-                        </div>
-
-                        <div class="form-group">
-                            <label>Radio Buttons</label>
+                            <label>Gender</label>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Radio 1
+                                    <input type="radio" name="gender" value="Male" checked> Male
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">Radio 2
+                                    <input type="radio" name="gender" value="Female"> Female
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">Radio 3
+                                    <input type="radio" name="gender" value="Other"> Other / Prefer not to say
                                 </label>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label>Inline Radio Buttons</label>
-                            <label class="radio-inline">
-                                <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline1" value="option1" checked>1
-                            </label>
-                            <label class="radio-inline">
-                                <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline2" value="option2">2
-                            </label>
-                            <label class="radio-inline">
-                                <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline3" value="option3">3
-                            </label>
-                        </div>
-
-                        <div class="form-group">
-                            <label>Selects</label>
-                            <select class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
+                            <label for="distance">Race Distance</label>
+                            <select class="form-control" id="distance" name="distance">
+                                <option value="">-- Select distance --</option>
+                                <option>5K</option>
+                                <option>10K</option>
+                                <option>Half Marathon (21K)</option>
+                                <option>Full Marathon (42K)</option>
                             </select>
                         </div>
 
                         <div class="form-group">
-                            <label>Multiple Selects</label>
-                            <select multiple class="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
+                            <label for="tshirt">T-Shirt Size</label>
+                            <select class="form-control" id="tshirt" name="tshirt">
+                                <option value="">-- Select size --</option>
+                                <option>XS</option>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                                <option>XXL</option>
                             </select>
                         </div>
 
-                        <button type="submit" class="btn btn-default">Submit Button</button>
-                        <button type="reset" class="btn btn-default">Reset Button</button>
+                        <div class="form-group">
+                            <label for="emergencyName">Emergency Contact Name</label>
+                            <input class="form-control" id="emergencyName" name="emergencyName" placeholder="Person to contact in case of emergency">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="emergencyPhone">Emergency Contact Phone</label>
+                            <input class="form-control" id="emergencyPhone" name="emergencyPhone" placeholder="Emergency phone number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="notes">Additional Notes</label>
+                            <textarea class="form-control" id="notes" name="notes" rows="3" placeholder="Medical conditions, pace, team name, etc."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="waiver">
+                                    I agree to the event rules and the race waiver.
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit Registration</button>
+                        <button type="reset" class="btn btn-default">Clear Form</button>
 
                     </form>
 
                 </div>
+
+                <!-- RIGHT COLUMN – EVENT INFO -->
                 <div class="col-lg-6">
-                    <h1>Disabled Form States</h1>
+                    <h2>Event Information</h2>
+                    <p>
+                        Welcome to the official registration page for the <strong>City Marathon 2025</strong>.
+                        Please fill out the form to reserve your spot in the race.
+                    </p>
 
-                    <form role="form">
+                    <h3>Race Details</h3>
+                    <ul>
+                        <li><strong>Date:</strong> October 12, 2025</li>
+                        <li><strong>Start Time:</strong> 8:00 AM</li>
+                        <li><strong>Location:</strong> Downtown City Park</li>
+                    </ul>
 
-                        <fieldset disabled>
+                    <h3>Included With Registration</h3>
+                    <ul>
+                        <li>Official race T-shirt</li>
+                        <li>Finisher medal</li>
+                        <li>Water and aid stations along the course</li>
+                        <li>Post-race snacks and refreshments</li>
+                    </ul>
 
-                            <div class="form-group">
-                                <label for="disabledSelect">Disabled input</label>
-                                <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input" disabled>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="disabledSelect">Disabled select menu</label>
-                                <select id="disabledSelect" class="form-control">
-                                    <option>Disabled select</option>
-                                </select>
-                            </div>
-
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox">Disabled Checkbox
-                                </label>
-                            </div>
-
-                            <button type="submit" class="btn btn-primary">Disabled Button</button>
-
-                        </fieldset>
-
-                    </form>
-
-                    <h1>Form Validation</h1>
-
-                    <form role="form">
-
-                        <div class="form-group has-success">
-                            <label class="control-label" for="inputSuccess">Input with success</label>
-                            <input type="text" class="form-control" id="inputSuccess">
-                        </div>
-
-                        <div class="form-group has-warning">
-                            <label class="control-label" for="inputWarning">Input with warning</label>
-                            <input type="text" class="form-control" id="inputWarning">
-                        </div>
-
-                        <div class="form-group has-error">
-                            <label class="control-label" for="inputError">Input with error</label>
-                            <input type="text" class="form-control" id="inputError">
-                        </div>
-
-                    </form>
-
-                    <h1>Input Groups</h1>
-
-                    <form role="form">
-
-                        <div class="form-group input-group">
-                            <span class="input-group-addon">@</span>
-                            <input type="text" class="form-control" placeholder="Username">
-                        </div>
-
-                        <div class="form-group input-group">
-                            <input type="text" class="form-control">
-                            <span class="input-group-addon">.00</span>
-                        </div>
-
-                        <div class="form-group input-group">
-                            <span class="input-group-addon"><i class="fa fa-eur"></i></span>
-                            <input type="text" class="form-control" placeholder="Font Awesome Icon">
-                        </div>
-
-                        <div class="form-group input-group">
-                            <span class="input-group-addon">$</span>
-                            <input type="text" class="form-control">
-                            <span class="input-group-addon">.00</span>
-                        </div>
-
-                        <div class="form-group input-group">
-                            <input type="text" class="form-control">
-                            <span class="input-group-btn"><button class="btn btn-default" type="button"><i class="fa fa-search"></i></button></span>
-                        </div>
-
-                    </form>
-
-                    <p>For complete documentation, please visit <a href="http://getbootstrap.com/css/#forms">Bootstrap's Form Documentation</a>.</p>
+                    <h3>Important Notes</h3>
+                    <p>
+                        Please arrive at least 30 minutes before the start time to pick up your race bib.
+                        By submitting the form, you confirm that you are physically able to participate in the event.
+                    </p>
 
                 </div>
             </div>
@@ -281,10 +201,6 @@
 
     </div>
     <!-- /#page-wrapper -->
-
-</div>
-<!-- /#wrapper -->
-
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 

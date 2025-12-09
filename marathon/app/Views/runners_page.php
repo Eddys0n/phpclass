@@ -49,14 +49,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                        Tables
+                        Registered Runners
                     </h1>
                     <ol class="breadcrumb">
                         <li>
                             <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
                         </li>
                         <li class="active">
-                            <i class="fa fa-table"></i> Tables
+                            <i class="fa fa-table"></i> Runners Tables
                         </li>
                     </ol>
                 </div>
@@ -70,113 +70,114 @@
                         <table class="table table-bordered table-hover">
                             <thead>
                             <tr>
-                                <th>Page</th>
-                                <th>Visits</th>
-                                <th>% New Visits</th>
-                                <th>Revenue</th>
+                                <th>Runner</th>
+                                <th>Bib #</th>
+                                <th>Distance</th>
+                                <th>Status</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>/index.html</td>
-                                <td>1265</td>
-                                <td>32.3%</td>
-                                <td>$321.33</td>
+                                <td>John Smith</td>
+                                <td>101</td>
+                                <td>5K</td>
+                                <td>Registered</td>
                             </tr>
                             <tr>
-                                <td>/about.html</td>
-                                <td>261</td>
-                                <td>33.3%</td>
-                                <td>$234.12</td>
+                                <td>Emma Johnson</td>
+                                <td>102</td>
+                                <td>10K</td>
+                                <td>Confirmed</td>
                             </tr>
                             <tr>
-                                <td>/sales.html</td>
-                                <td>665</td>
-                                <td>21.3%</td>
-                                <td>$16.34</td>
+                                <td>Michael Brown</td>
+                                <td>203</td>
+                                <td>Half Marathon</td>
+                                <td>Paid</td>
                             </tr>
                             <tr>
-                                <td>/blog.html</td>
-                                <td>9516</td>
-                                <td>89.3%</td>
-                                <td>$1644.43</td>
+                                <td>Laura Davis</td>
+                                <td>310</td>
+                                <td>Marathon</td>
+                                <td>Registered</td>
                             </tr>
                             <tr>
-                                <td>/404.html</td>
-                                <td>23</td>
-                                <td>34.3%</td>
-                                <td>$23.52</td>
+                                <td>Carlos Martinez</td>
+                                <td>411</td>
+                                <td>5K</td>
+                                <td>Waiting List</td>
                             </tr>
                             <tr>
-                                <td>/services.html</td>
-                                <td>421</td>
-                                <td>60.3%</td>
-                                <td>$724.32</td>
+                                <td>Sophia Miller</td>
+                                <td>512</td>
+                                <td>10K</td>
+                                <td>Confirmed</td>
                             </tr>
                             <tr>
-                                <td>/blog/post.html</td>
-                                <td>1233</td>
-                                <td>93.2%</td>
-                                <td>$126.34</td>
+                                <td>David Wilson</td>
+                                <td>613</td>
+                                <td>Half Marathon</td>
+                                <td>Paid</td>
                             </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
+
                 <div class="col-lg-6">
                     <h2>Bordered with Striped Rows</h2>
                     <div class="table-responsive">
                         <table class="table table-bordered table-hover table-striped">
                             <thead>
                             <tr>
-                                <th>Page</th>
-                                <th>Visits</th>
-                                <th>% New Visits</th>
-                                <th>Revenue</th>
+                                <th>Runner</th>
+                                <th>Bib #</th>
+                                <th>Distance</th>
+                                <th>Status</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>/index.html</td>
-                                <td>1265</td>
-                                <td>32.3%</td>
-                                <td>$321.33</td>
+                                <td>Anna Lee</td>
+                                <td>714</td>
+                                <td>5K</td>
+                                <td>Registered</td>
                             </tr>
                             <tr>
-                                <td>/about.html</td>
-                                <td>261</td>
-                                <td>33.3%</td>
-                                <td>$234.12</td>
+                                <td>James Taylor</td>
+                                <td>815</td>
+                                <td>10K</td>
+                                <td>Confirmed</td>
                             </tr>
                             <tr>
-                                <td>/sales.html</td>
-                                <td>665</td>
-                                <td>21.3%</td>
-                                <td>$16.34</td>
+                                <td>Maria Garcia</td>
+                                <td>916</td>
+                                <td>Half Marathon</td>
+                                <td>Paid</td>
                             </tr>
                             <tr>
-                                <td>/blog.html</td>
-                                <td>9516</td>
-                                <td>89.3%</td>
-                                <td>$1644.43</td>
+                                <td>Robert King</td>
+                                <td>100</td>
+                                <td>Marathon</td>
+                                <td>Registered</td>
                             </tr>
                             <tr>
-                                <td>/404.html</td>
-                                <td>23</td>
-                                <td>34.3%</td>
-                                <td>$23.52</td>
+                                <td>Olivia Clark</td>
+                                <td>221</td>
+                                <td>5K</td>
+                                <td>Waiting List</td>
                             </tr>
                             <tr>
-                                <td>/services.html</td>
-                                <td>421</td>
-                                <td>60.3%</td>
-                                <td>$724.32</td>
+                                <td>Daniel Young</td>
+                                <td>322</td>
+                                <td>10K</td>
+                                <td>Confirmed</td>
                             </tr>
                             <tr>
-                                <td>/blog/post.html</td>
-                                <td>1233</td>
-                                <td>93.2%</td>
-                                <td>$126.34</td>
+                                <td>Isabella Hall</td>
+                                <td>423</td>
+                                <td>Half Marathon</td>
+                                <td>Paid</td>
                             </tr>
                             </tbody>
                         </table>
@@ -192,113 +193,114 @@
                         <table class="table table-hover">
                             <thead>
                             <tr>
-                                <th>Page</th>
-                                <th>Visits</th>
-                                <th>% New Visits</th>
-                                <th>Revenue</th>
+                                <th>Runner</th>
+                                <th>Bib #</th>
+                                <th>Distance</th>
+                                <th>Status</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>/index.html</td>
-                                <td>1265</td>
-                                <td>32.3%</td>
-                                <td>$321.33</td>
+                                <td>Lucas Anderson</td>
+                                <td>524</td>
+                                <td>5K</td>
+                                <td>Registered</td>
                             </tr>
                             <tr>
-                                <td>/about.html</td>
-                                <td>261</td>
-                                <td>33.3%</td>
-                                <td>$234.12</td>
+                                <td>Emily Harris</td>
+                                <td>625</td>
+                                <td>10K</td>
+                                <td>Confirmed</td>
                             </tr>
                             <tr>
-                                <td>/sales.html</td>
-                                <td>665</td>
-                                <td>21.3%</td>
-                                <td>$16.34</td>
+                                <td>Joshua Scott</td>
+                                <td>726</td>
+                                <td>Half Marathon</td>
+                                <td>Paid</td>
                             </tr>
                             <tr>
-                                <td>/blog.html</td>
-                                <td>9516</td>
-                                <td>89.3%</td>
-                                <td>$1644.43</td>
+                                <td>Grace Lewis</td>
+                                <td>827</td>
+                                <td>Marathon</td>
+                                <td>Registered</td>
                             </tr>
                             <tr>
-                                <td>/404.html</td>
-                                <td>23</td>
-                                <td>34.3%</td>
-                                <td>$23.52</td>
+                                <td>Anthony Walker</td>
+                                <td>928</td>
+                                <td>5K</td>
+                                <td>Waiting List</td>
                             </tr>
                             <tr>
-                                <td>/services.html</td>
-                                <td>421</td>
-                                <td>60.3%</td>
-                                <td>$724.32</td>
+                                <td>Chloe Robinson</td>
+                                <td>1029</td>
+                                <td>10K</td>
+                                <td>Confirmed</td>
                             </tr>
                             <tr>
-                                <td>/blog/post.html</td>
-                                <td>1233</td>
-                                <td>93.2%</td>
-                                <td>$126.34</td>
+                                <td>Henry Green</td>
+                                <td>1130</td>
+                                <td>Half Marathon</td>
+                                <td>Paid</td>
                             </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
+
                 <div class="col-lg-6">
                     <h2>Striped Rows</h2>
                     <div class="table-responsive">
                         <table class="table table-hover table-striped">
                             <thead>
                             <tr>
-                                <th>Page</th>
-                                <th>Visits</th>
-                                <th>% New Visits</th>
-                                <th>Revenue</th>
+                                <th>Runner</th>
+                                <th>Bib #</th>
+                                <th>Distance</th>
+                                <th>Status</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>/index.html</td>
-                                <td>1265</td>
-                                <td>32.3%</td>
-                                <td>$321.33</td>
+                                <td>Sarah Perez</td>
+                                <td>1231</td>
+                                <td>5K</td>
+                                <td>Registered</td>
                             </tr>
                             <tr>
-                                <td>/about.html</td>
-                                <td>261</td>
-                                <td>33.3%</td>
-                                <td>$234.12</td>
+                                <td>Matthew Hill</td>
+                                <td>1332</td>
+                                <td>10K</td>
+                                <td>Confirmed</td>
                             </tr>
                             <tr>
-                                <td>/sales.html</td>
-                                <td>665</td>
-                                <td>21.3%</td>
-                                <td>$16.34</td>
+                                <td>Natalie Adams</td>
+                                <td>1433</td>
+                                <td>Half Marathon</td>
+                                <td>Paid</td>
                             </tr>
                             <tr>
-                                <td>/blog.html</td>
-                                <td>9516</td>
-                                <td>89.3%</td>
-                                <td>$1644.43</td>
+                                <td>Christopher Baker</td>
+                                <td>1534</td>
+                                <td>Marathon</td>
+                                <td>Registered</td>
                             </tr>
                             <tr>
-                                <td>/404.html</td>
-                                <td>23</td>
-                                <td>34.3%</td>
-                                <td>$23.52</td>
+                                <td>Mia Gonzalez</td>
+                                <td>1635</td>
+                                <td>5K</td>
+                                <td>Waiting List</td>
                             </tr>
                             <tr>
-                                <td>/services.html</td>
-                                <td>421</td>
-                                <td>60.3%</td>
-                                <td>$724.32</td>
+                                <td>Andrew Carter</td>
+                                <td>1736</td>
+                                <td>10K</td>
+                                <td>Confirmed</td>
                             </tr>
                             <tr>
-                                <td>/blog/post.html</td>
-                                <td>1233</td>
-                                <td>93.2%</td>
-                                <td>$126.34</td>
+                                <td>Victoria Rivera</td>
+                                <td>1837</td>
+                                <td>Half Marathon</td>
+                                <td>Paid</td>
                             </tr>
                             </tbody>
                         </table>
@@ -314,74 +316,71 @@
                         <table class="table table-bordered table-hover table-striped">
                             <thead>
                             <tr>
-                                <th>Page</th>
-                                <th>Visits</th>
-                                <th>% New Visits</th>
-                                <th>Revenue</th>
+                                <th>Runner</th>
+                                <th>Bib #</th>
+                                <th>Distance</th>
+                                <th>Status</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr class="active">
-                                <td>/index.html</td>
-                                <td>1265</td>
-                                <td>32.3%</td>
-                                <td>$321.33</td>
+                                <td>Peter Cole</td>
+                                <td>1938</td>
+                                <td>5K</td>
+                                <td>Checked-in</td>
                             </tr>
                             <tr class="success">
-                                <td>/about.html</td>
-                                <td>261</td>
-                                <td>33.3%</td>
-                                <td>$234.12</td>
+                                <td>Rachel Flores</td>
+                                <td>2039</td>
+                                <td>10K</td>
+                                <td>Confirmed</td>
                             </tr>
                             <tr class="warning">
-                                <td>/sales.html</td>
-                                <td>665</td>
-                                <td>21.3%</td>
-                                <td>$16.34</td>
+                                <td>Kevin Hughes</td>
+                                <td>2140</td>
+                                <td>Half Marathon</td>
+                                <td>Waiting List</td>
                             </tr>
                             <tr class="danger">
-                                <td>/blog.html</td>
-                                <td>9516</td>
-                                <td>89.3%</td>
-                                <td>$1644.43</td>
+                                <td>Olivia Reed</td>
+                                <td>2241</td>
+                                <td>Marathon</td>
+                                <td>Cancelled</td>
                             </tr>
                             <tr>
-                                <td>/404.html</td>
-                                <td>23</td>
-                                <td>34.3%</td>
-                                <td>$23.52</td>
+                                <td>Maria Lopez</td>
+                                <td>2342</td>
+                                <td>5K</td>
+                                <td>Registered</td>
                             </tr>
                             <tr>
-                                <td>/services.html</td>
-                                <td>421</td>
-                                <td>60.3%</td>
-                                <td>$724.32</td>
+                                <td>Liam Turner</td>
+                                <td>2443</td>
+                                <td>10K</td>
+                                <td>Registered</td>
                             </tr>
                             <tr>
-                                <td>/blog/post.html</td>
-                                <td>1233</td>
-                                <td>93.2%</td>
-                                <td>$126.34</td>
+                                <td>Ella Foster</td>
+                                <td>2544</td>
+                                <td>Half Marathon</td>
+                                <td>Registered</td>
                             </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
+
                 <div class="col-lg-6">
-                    <h2>Bootstrap Docs</h2>
-                    <p>For complete documentation, please visit <a target="_blank" href="http://getbootstrap.com/css/#tables">Bootstrap's Tables Documentation</a>.</p>
+                    <h2>Race Tables Info</h2>
+                    <p>
+                        Example tables
+                    </p>
                 </div>
             </div>
             <!-- /.row -->
 
         </div>
         <!-- /.container-fluid -->
-
-    </div>
-    <!-- /#page-wrapper -->
-
-</div>
-<!-- /#wrapper -->
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
