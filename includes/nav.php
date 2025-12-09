@@ -5,6 +5,7 @@ $isMovieList = $_SERVER['REQUEST_URI'] == '/movielist/' ? 'selected' : '';
 $isLogin = $_SERVER['REQUEST_URI'] == '/login/' ? 'selected' : '';
 $customer = $_SERVER['REQUEST_URI'] == '/customerlist/' ? 'selected' : '';
 $dice = $_SERVER['REQUEST_URI'] == '/dice/' ? 'selected' : '';
+$marathon = $_SERVER['REQUEST_URI'] == '/marathon/public' ? 'selected' : '';
 ?>
 <ul>
     <li>
@@ -33,6 +34,9 @@ $dice = $_SERVER['REQUEST_URI'] == '/dice/' ? 'selected' : '';
     </li>
     <li class="<?=$customer?>">
         <a href="/customerlist">Customer</a>
+    </li>
+    <li class="<?=$marathon?>">
+        <a href="/marathon/public">Marathon Website</a>
     </li>
 
 </ul>

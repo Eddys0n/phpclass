@@ -29,7 +29,8 @@ class Home extends BaseController
 
             if($Member->user_login($this->request->getPost('username'),$this->request->getPost('password'))){
                 //Pass
-               return view('admin_page');
+               header("Location: admin");
+               exit();
             }else {
                 //fail
                 $data = array('load_error' => 'true', 'error_message' => 'Invalid username or Password');
@@ -42,9 +43,10 @@ class Home extends BaseController
     public function create(): string
     {
         $rules=[
-            'username'=>'required|valid_email',
+            'username'=>'required',
             'password'=>'required',
-            'password_confirm'=>'required|matches[password]'
+            'password2'=>'required|matches[password]',
+            'email'=>'required'
         ];
         if (!$this->validate($rules)){
             $data = array('load_error'=>'true');
@@ -52,9 +54,13 @@ class Home extends BaseController
             return view('homepage', $data);
         }else{
             //Hit the DB
+            echo "here";
+            exit();
             $Member = new Member();
             if($Member->create_account($this->request->getPost('username'),
-                                    $this->request->getPost('password'))){
+                                    $this->request->getPost('password'),
+                                    $this->request->getPost('password2'),
+                                    $this->request->getPost('email'))){
                 //Pass
                 return view('admin_page');
             }else {

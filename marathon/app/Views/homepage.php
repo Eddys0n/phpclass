@@ -167,9 +167,13 @@
                 if ($validation->hasError('password')) {
                     echo $validation->getError('password') . "<br/>";
                 }
-                if (isset($error_message)){
-                    echo $error_message;
+                if ($validation->hasError('password2')){
+                    echo $validation->getError('password2'). "<br/>";
                 }
+                if ($validation->hasError('email')) {
+                    echo $validation->getError('email') . "<br/>";
+                }
+
                 ?>
             </div>
         </div>

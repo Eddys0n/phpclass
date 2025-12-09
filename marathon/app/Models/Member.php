@@ -17,7 +17,14 @@ class Member extends Model
             $DBPass = $row->memberPassword;
             $MemberKey = $row->memberKey;
             $txtPassword = md5($txtPassword. $MemberKey);
+
             if($txtPassword==$DBPass){
+                $this->session = service('session');
+                $this->session->start();
+
+                $this->session->set("roleID",$row->roleID);
+                $this->session->set("memberID",$row->memberID);
+
                 return true;
             }else{
                 return false;
@@ -48,7 +55,7 @@ class Member extends Model
                 return true;
             }
             return false;
-        } catch (\mysqli_sql_exception $e){
+        } catch (Exception $e){
             return false;
         }
 
